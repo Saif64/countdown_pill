@@ -1,0 +1,19 @@
+name: countdown_pill
+description: A customizable countdown pill widget with different time formats and animations.
+version: 0.0.1
+homepage: https://github.com/your_username/countdown_pill
+repository: https://github.com/your_username/countdown_pill
+issue_tracker: https://github.com/your_username/countdown_pill/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2 # For date parsing
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0 # Ensuring best practices

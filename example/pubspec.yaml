@@ -1,0 +1,19 @@
+name: example
+description: Example app for countdown_pill package.
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  countdown_pill:
+    path: ../  # 👈 This tells Flutter to use the local package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
