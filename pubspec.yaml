@@ -1,9 +1,9 @@
 name: countdown_pill
 description: A customizable countdown pill widget with different time formats and animations.
-version: 1.0.2
-homepage: https://github.com/your_username/countdown_pill
-repository: https://github.com/your_username/countdown_pill
-issue_tracker: https://github.com/your_username/countdown_pill/issues
+version: 1.0.3
+homepage: https://github.com/Saif64/countdown_pill
+repository: https://github.com/Saif64/countdown_pill
+issue_tracker: https://github.com/Saif64/countdown_pill/issues
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
