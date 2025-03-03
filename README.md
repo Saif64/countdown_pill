@@ -18,7 +18,7 @@ A customizable countdown timer widget for Flutter, with real-time updates, flexi
 
 
 ## Basic Example
-```
+```dart
 CountdownPill(
   targetDate: DateTime.now().add(Duration(days: 5)), 
   format: '{d} days {H}H {M}M {S}S remaining',
@@ -32,7 +32,7 @@ CountdownPill(
 ```
 
 ## Custom Styling Example
-```
+```dart
 CountdownPill(
   targetDate: DateTime.now().add(Duration(days: 1)),
   format: '{d} days {H}H {M}M remaining',
