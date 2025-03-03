@@ -19,6 +19,7 @@ A customizable countdown timer widget for Flutter, with real-time updates, flexi
 
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.31.42.png?raw=true" />
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.52.png?raw=true" />
+
 ## Basic Example
 ```dart
 CountdownPill(
@@ -34,6 +35,7 @@ CountdownPill(
 ```
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.24.png?raw=true" />
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.46.pn?raw=true" />
+
 ## Custom Styling Example
 ```dart
 CountdownPill(

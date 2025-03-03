@@ -1,3 +1,7 @@
+## 1.0.4
+
+- updated readme.md
+
 ## 1.0.3
 
 - github repository added
