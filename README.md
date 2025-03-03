@@ -34,7 +34,7 @@ CountdownPill(
 )
 ```
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.24.png?raw=true" />
-<img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.46.pn?raw=true" />
+<img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.46.png?raw=true" />
 
 ## Custom Styling Example
 ```dart
