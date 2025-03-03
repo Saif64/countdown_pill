@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text('Countdown Pill Example')),
         body: Center(
           child: CountdownPill(
-            targetDate: DateTime(2025, 2, 25),
+            targetDate: DateTime(2025, 3, 25),
             format: '{d} days {H} hours {M} minutes {S} seconds',
           ),
         ),
