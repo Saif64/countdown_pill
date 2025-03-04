@@ -23,14 +23,8 @@ A customizable countdown timer widget for Flutter, with real-time updates, flexi
 ## Basic Example
 ```dart
 CountdownPill(
-  targetDate: DateTime.now().add(Duration(days: 5)), 
-  format: '{d} days {H}H {M}M {S}S remaining',
-  animate: true,
-  decoration: BoxDecoration(
-    color: Colors.blue.withOpacity(0.2),
-    borderRadius: BorderRadius.circular(12),
-  ),
-  textStyle: TextStyle(color: Colors.black, fontSize: 18),
+    targetDate: DateTime(2025, 3, 25),
+    format: '{d} days {H} hours {M} minutes {S} seconds',
 )
 ```
 <img src="https://github.com/Saif64/countdown_pill/blob/master/ss/Screenshot%202025-03-03%20at%2012.32.24.png?raw=true" />
@@ -39,15 +33,15 @@ CountdownPill(
 ## Custom Styling Example
 ```dart
 CountdownPill(
-  targetDate: DateTime.now().add(Duration(days: 1)),
-  format: '{d} days {H}H {M}M remaining',
-  animate: false,
-  decoration: BoxDecoration(
-    color: Colors.green,
-    borderRadius: BorderRadius.circular(20),
-    border: Border.all(color: Colors.black, width: 2),
-  ),
-  textStyle: TextStyle(fontSize: 16, color: Colors.white),
+      targetDate: DateTime(2025, 3, 25),
+      format: '{d} days {H} hours {M} minutes {S} seconds',
+      animate: false,
+      decoration: BoxDecoration(
+        color: Colors.green,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.black, width: 2),
+      ),
+      textStyle: TextStyle(fontSize: 16, color: Colors.white),
 )
 ```
 ## For animation
